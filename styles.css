@@ -44,7 +44,7 @@ section {
 	justify-content: center;
 	align-items: center;
 
-	margin: 5.5rem 5rem 8.5rem 5rem;
+	margin: 5.5rem 5rem 5.5rem 5rem;
 }
 
 #section-header {
@@ -57,6 +57,11 @@ section {
 	display: flex;
 	flex-direction: column;
 	margin-right: auto;
+}
+
+#tags {
+	margin-top: 1.5rem;
+	font-weight: 700;
 }
 
 h1,
@@ -76,10 +81,15 @@ h3 {
 	color: var(--text-headline);
 }
 
+ul {
+	margin-left: 1.5rem;
+}
+
 img {
 	border-radius: 1.25rem;
 	width: 70rem;
 	height: 41.25rem;
+	margin: 2rem 0 2rem 0;
 }
 
 #description {
@@ -103,30 +113,18 @@ img {
 	color: var(--accent-orange);
 }
 
-#section-header > img {
-	margin-bottom: 1.5rem;
-}
-
 #content-list {
 	padding-top: 1.5rem;
 	padding-bottom: 1.5rem;
 }
 
-#destinations img {
-	margin-bottom: 1.25rem;
-}
-
-#destinations img + img {
-	padding-top: 3rem;
-}
-
 footer {
 	color: var(--text-secondary);
 	text-align: center;
-	padding-bottom: 3rem;
-	padding-top: 4rem;
 }
 
 footer img {
 	vertical-align: middle;
+	max-width: 16px;
+	max-height: 16px;
 }
