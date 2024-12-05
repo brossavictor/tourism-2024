@@ -92,32 +92,9 @@ img {
 	margin: 2rem 0 2rem 0;
 }
 
-#haedong {
-	max-height: 32rem;
-	background-image: url("assets/haedong.jpg");
-
-	border-radius: 1.25rem;
-	width: 70rem;
-	height: 41.25rem;
-	margin: 2rem 0 2rem 0;
-}
-#beomeo {
-	max-height: 32rem;
-	background-image: url("assets/beomeo.jpg");
-
-	border-radius: 1.25rem;
-	width: 70rem;
-	height: 41.25rem;
-	margin: 2rem 0 2rem 0;
-}
-#yongdusan {
-	max-height: 32rem;
-	background-image: url("assets/yongdusan.jpg");
-
-	border-radius: 1.25rem;
-	width: 70rem;
-	height: 41.25rem;
-	margin: 2rem 0 2rem 0;
+#destinations > img {
+	max-height: 21.875rem;
+	object-fit: cover;
 }
 
 #description {
